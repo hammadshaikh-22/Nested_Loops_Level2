@@ -30,42 +30,42 @@ for (var i = 0; i < arr1.length; i++){
     
 }
 
-// var sum=0
-// var count=0
-// for (var i = 0; i < arr1.length; i++) {
-//     for (var j = 0; j < arr1[i].length; j++) {
-//         sum+=arr1[i][j]
-//         count++
-//     }
+var sum=0
+var count=0
+for (var i = 0; i < arr1.length; i++) {
+    for (var j = 0; j < arr1[i].length; j++) {
+        sum+=arr1[i][j]
+        count++
+    }
     
-// }
-// console.log("Sum of all numbers is: ",sum)
-// var avg=sum/count
-// console.log("Avg of all numbers are: ",avg)
+}
+console.log("Sum of all numbers is: ",sum)
+var avg=sum/count
+console.log("Avg of all numbers are: ",avg)
 
 
-// var max=0
-// var min=100000000
-// for (var i = 0; i < arr1.length; i++) {
-//     var a=""
-//     for (var j = 0; j < arr1[i].length; j++) {
-//         if(arr1[i][j]>max){
-//             max=arr1[i][j]
-//         }
-//         if(arr1[i][j]<min){
-//             min=arr1[i][j]
-//         }
-//         if(arr1[i][j]%2==0){
-//             countEven++
-//         }
+var max=0
+var min=100000000
+for (var i = 0; i < arr1.length; i++) {
+    var a=""
+    for (var j = 0; j < arr1[i].length; j++) {
+        if(arr1[i][j]>max){
+            max=arr1[i][j]
+        }
+        if(arr1[i][j]<min){
+            min=arr1[i][j]
+        }
+        if(arr1[i][j]%2==0){
+            countEven++
+        }
         
         
-//     }
+    }
     
     
-// }
-// console.log("Largest number in the array is: ",max)
-// console.log("Smallest number in the array is: ",min)
+}
+console.log("Largest number in the array is: ",max)
+console.log("Smallest number in the array is: ",min)
 
 
 
