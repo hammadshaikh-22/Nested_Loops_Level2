@@ -86,8 +86,8 @@ for (var i = 0; i < arr1.length; i++) {
     
     
 }
-// console.log("Total even numbers are: ",countEven)
-// console.log("Total odd numbers are: ",countOdd)
+console.log("Total even numbers are: ",countEven)
+console.log("Total odd numbers are: ",countOdd)
 
 
 arr2=[
@@ -110,23 +110,23 @@ for (var i = 0; i < arr1.length; i++) {
 console.log("New array is: ")
 console.log(arr2)
 
-// var arr3=[
-//     [4,5,12],
-//     [15,43,25],
-//     [80,14,10]
-// ]
-// var countNum=0
-// for (var i = 0; i < arr3.length; i++) {
-//     var a=""
-//     for (var j = 0; j < arr3[i].length; j++) {
-//         if(arr3[i][j]%5==0){
-//             countNum++
-//         }
+var arr3=[
+    [4,5,12],
+    [15,43,25],
+    [80,14,10]
+]
+var countNum=0
+for (var i = 0; i < arr3.length; i++) {
+    var a=""
+    for (var j = 0; j < arr3[i].length; j++) {
+        if(arr3[i][j]%5==0){
+            countNum++
+        }
         
         
-//     }
+    }
     
     
-// }
-// console.log("Total numbers that are divisible by 5 are: ",countNum)
+}
+console.log("Total numbers that are divisible by 5 are: ",countNum)
 
