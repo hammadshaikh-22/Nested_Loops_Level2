@@ -17,18 +17,18 @@ for (var i = 0; i < arr1.length; i++) {
 
 
 
-// for (var i = 0; i < arr1.length; i++){
-//     var a=""
-//     for (var j = 0; j < arr1[i].length; j++) {
-//         a+= arr1[j][i]
+for (var i = 0; i < arr1.length; i++){
+    var a=""
+    for (var j = 0; j < arr1[i].length; j++) {
+        a+= arr1[j][i]
         
         
         
-//     }
+    }
     
-//     console.log(a)
+    console.log(a)
     
-// }
+}
 
 // var sum=0
 // var count=0
