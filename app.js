@@ -69,23 +69,23 @@ console.log("Smallest number in the array is: ",min)
 
 
 
-// var countEven=0
-// var countOdd=0
-// for (var i = 0; i < arr1.length; i++) {
-//     var a=""
-//     for (var j = 0; j < arr1[i].length; j++) {
-//         if(arr1[i][j]%2==0){
-//             countEven++
-//         }
-//         else{
-//             countOdd++
-//         }
+var countEven=0
+var countOdd=0
+for (var i = 0; i < arr1.length; i++) {
+    var a=""
+    for (var j = 0; j < arr1[i].length; j++) {
+        if(arr1[i][j]%2==0){
+            countEven++
+        }
+        else{
+            countOdd++
+        }
         
         
-//     }
+    }
     
     
-// }
+}
 // console.log("Total even numbers are: ",countEven)
 // console.log("Total odd numbers are: ",countOdd)
 
