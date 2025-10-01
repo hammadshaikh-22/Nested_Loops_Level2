@@ -90,23 +90,23 @@ for (var i = 0; i < arr1.length; i++) {
 // console.log("Total odd numbers are: ",countOdd)
 
 
-// arr2=[
-//     [-1,4,6],
-//     [-5,-2,8],
-//     [7,-9,3]
-// ]
-// for (var i = 0; i < arr1.length; i++) {
-//     var a=""
-//     for (var j = 0; j < arr1[i].length; j++) {
-//         if(arr2[i][j]<0){
-//             arr2[i][j]=0
-//         }
+arr2=[
+    [-1,4,6],
+    [-5,-2,8],
+    [7,-9,3]
+]
+for (var i = 0; i < arr1.length; i++) {
+    var a=""
+    for (var j = 0; j < arr1[i].length; j++) {
+        if(arr2[i][j]<0){
+            arr2[i][j]=0
+        }
         
         
-//     }
+    }
     
     
-// }
+}
 // console.log("New array is: ")
 // console.log(arr2)
 
