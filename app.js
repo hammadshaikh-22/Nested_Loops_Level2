@@ -107,8 +107,8 @@ for (var i = 0; i < arr1.length; i++) {
     
     
 }
-// console.log("New array is: ")
-// console.log(arr2)
+console.log("New array is: ")
+console.log(arr2)
 
 // var arr3=[
 //     [4,5,12],
